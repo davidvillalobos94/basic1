@@ -17,4 +17,13 @@ class Articulo {
 		descripcion(minSize: 3, maxSize: 200, nullable: true, blank: true)
 		precio(min: 0d)
 	}
+
+	Map obtieneDatos() {
+		[
+		        id: id,
+				clave: clave,
+				nombre: nombre,
+				precio: precio
+		]
+	}
 }
