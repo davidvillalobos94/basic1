@@ -77,9 +77,9 @@ class BootStrap {
 		println "mov errors: " + movimiento.errors
 		println "mov save: " + movimiento.save()
 
-		Movimiento movimiento1 = Movimiento.get(1)
-		println "total: " + movimiento1.total
-		println "detalles: " + movimiento1.detalles
+//		Movimiento movimiento1 = Movimiento.get(1)
+//		println "total: " + movimiento1.total
+//		println "detalles: " + movimiento1.detalles
 
 
 	}
